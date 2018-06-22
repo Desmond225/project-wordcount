@@ -1,0 +1,15 @@
+
+<h1>originals:</h1>
+
+There are {{count}} words in your text here
+{{ fulltext }}
+
+<h1>word counter</h1>
+  {% for word, count_total in word_dictionary %}
+
+    {{ word }}
+    <br>
+    {{ count_total }}
+    <br>
+
+  {% endfor %}
